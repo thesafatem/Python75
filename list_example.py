@@ -93,27 +93,3 @@ for i in range(1, 3):
         d.append(i * j)
 
 
-l = input()
-print(l, type(l))
-
-s = l.split()
-print(s, type(s))
-
-# for i in range(len(s)):
-#     s[i] = int(s[i])
-# print(s)
-
-s = list(map(int, s))
-print(s)
-
-
-def f(x):
-    return x + 1
-
-
-for i in range(len(s)):
-    s[i] = s[i] + 1
-
-
-s = list(map(f, s))
-print(s)

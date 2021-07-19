@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5a65376-1945-472d-b70a-eb7bbefd5ab7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/list_example.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WAMAS/partition.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="SvnConfiguration">
@@ -47,21 +47,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="398" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626359731663">
+    <state x="398" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626707293529">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="398" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1626359731663" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1626363071807">
+    <state x="398" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1626707293529" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1626422489406">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1626363071807" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1626358196942">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1626422489406" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1626703090318">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626358196942" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1626361117530">
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626703090318" />
+    <state x="363" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1626707975508">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1626361117530" />
+    <state x="363" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680@0.0.1280.680" timestamp="1626707975508" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1626707255464">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1626707255464" />
   </component>
 </project>
