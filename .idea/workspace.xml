@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a5a65376-1945-472d-b70a-eb7bbefd5ab7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/list_example.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,25 +46,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="398" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626707293529">
+    <state x="398" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1628173322032">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="398" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1626707293529" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1626422489406">
+    <state x="398" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1628173322032" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1627027195102">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1626422489406" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1626703090318">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1627027195102" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1628184486803">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626703090318" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1628184486802" />
     <state x="363" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1626707975508">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="363" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680@0.0.1280.680" timestamp="1626707975508" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1626707255464">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1628175248784">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1626707255464" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1628175248784" />
   </component>
 </project>
