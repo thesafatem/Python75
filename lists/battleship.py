@@ -65,10 +65,10 @@ def shoot(x, y):
 def display():
     for i in range(10):
         print('   ' + '+---' * 10 + '+')
-        if i == 9:
-            print(f'{i+1} ', end='')
+        if i == 0:
+            print(f'{10-i} ', end='')
         else:
-            print(f' {i+1} ', end='')
+            print(f' {10-i} ', end='')
         for j in range(10):
             a = [' ', 'o', 'x']
             # if field[i][j] == 0:
@@ -82,7 +82,7 @@ def display():
     print('   ' + '+---' * 10 + '+')
     print('   ', end='')
     for i in range(10):
-        print(f'  {i+1} ', end='')
+        print(f'  {chr(ord("a")+i)} ', end='')
     print()
 
 
@@ -93,8 +93,17 @@ while True:
     display()
     mode = input()
     if mode == 'place':
-        x, y, dir, size = map(int, input().split())
+        # y, x, dir, size = map(int, input().split())
+        s = input().split()  # ['a', '1', '0', '4']
+        y = s[0]
+        y = ord(y) - ord('a')
+        x, dir, size = map(int, s[1:])
+        x = 10 - x
         print(place(x, y, dir, size))
-    else:
-        x, y = map(int, input().split())
+    elif mode == 'shoot':
+        s = input().split()
+        y = s[0]
+        y = ord(y) - ord('a')
+        x = int(s[1])
+        x = 10 - x
         shoot(x, y)

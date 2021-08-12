@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5a65376-1945-472d-b70a-eb7bbefd5ab7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dictionaries/online_shop.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lists/battleship.py" beforeDir="false" afterPath="$PROJECT_DIR$/lists/battleship.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dictionaries" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="SvnConfiguration">
@@ -50,14 +52,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="398" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1628173322032" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1628237695078">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1628779004252">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1628237695078" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1628695476380">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1628779004252" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1628778319772">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1628695476380" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1628778319772" />
     <state x="363" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1626707975508">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
