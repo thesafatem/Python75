@@ -1,12 +1,13 @@
 import requests
 import json
+import config
 
 word = input()
 
 url = f"https://wordsapiv1.p.rapidapi.com/words/{word}/definitions"
 
 headers = {
-    'x-rapidapi-key': "c83e7d750dmshcde9415b4bd29b2p1fdd2ajsnc5945f3ce5bb",
+    'x-rapidapi-key': config.TOKEN,
     'x-rapidapi-host': "wordsapiv1.p.rapidapi.com"
 }
 
