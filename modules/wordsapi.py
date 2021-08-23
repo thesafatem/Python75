@@ -2,15 +2,15 @@ import requests
 import json
 import config
 
-word = input()
+url = f"https://wordsapiv1.p.rapidapi.com/words/"
 
-url = f"https://wordsapiv1.p.rapidapi.com/words/{word}/definitions"
+querystring = {'random': "true"}
 
 headers = {
     'x-rapidapi-key': config.TOKEN,
     'x-rapidapi-host': "wordsapiv1.p.rapidapi.com"
 }
 
-response = requests.request("GET", url, headers=headers)
+response = requests.request("GET", url, headers=headers, params=querystring)
 result = json.loads(response.text)
-print(result['definitions'][0]['definition'])
+print(result)
