@@ -12,7 +12,12 @@ class Field:
                 res += ' ' * 3 + '-' * 11 + '\n'
         return res
 
-
-
-f = Field()
-print(f)
+    def fill(self, coords, symbol):
+        # coords = (x, y)
+        if coords[0] < 0 or coords[0] >= self.size \
+            or coords[1] < 0 or coords[1] >= self.size:
+            raise ValueError
+        elif self.field[coords[0]][coords[1]] != ' ':
+            raise ValueError
+        else:
+            self.field[coords[0]][coords[1]] = symbol
