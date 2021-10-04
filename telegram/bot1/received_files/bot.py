@@ -1,6 +1,5 @@
 import telebot
 import gtts
-from PIL import Image
 import config
 
 bot = telebot.TeleBot(config.TOKEN)
@@ -40,27 +39,6 @@ def reply_document(message):
                 bot.send_message(message.from_user.id, text)
             return
     bot.send_message(message.from_user.id, downloaded_file)
-
-
-@bot.message_handler(content_types=['photo'])
-def reply_photo(message):
-    # bot.send_message(message.from_user.id, message)
-    fileID = message.photo[-1].file_id
-    file = bot.get_file(fileID)
-    file_path = file.file_path
-    download = bot.download_file(file_path)
-    with open('received_files/nature.png', 'wb') as file:
-        file.write(download)
-    nature = Image.open('received_files/nature.png')
-    px = nature.load()
-    nature_wb = Image.new('RGB', nature.size)
-    for i in range(nature.size[0]):
-        for j in range(nature.size[1]):
-            grey = (px[i, j][0] + px[i, j][1] + px[i, j][2]) // 3
-            nature_wb.putpixel((i, j), (grey, grey, grey))
-    nature_wb.save('pillow/nature_wb.png')
-    with open('pillow/nature_wb.png', 'rb') as photo:
-        bot.send_photo(message.from_user.id, photo)
 
 
 @bot.message_handler(content_types=['sticker'])

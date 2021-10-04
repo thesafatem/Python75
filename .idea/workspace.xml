@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5a65376-1945-472d-b70a-eb7bbefd5ab7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/telegram/bot1/bot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/bot1/audio.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/bot1/audio.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/bot1/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/bot1/bot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python67/Lesson19/bot.py" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -56,10 +57,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="398" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1628173322032" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1632731594721">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1633361464528">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1632731594721" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1633361464528" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1633009290073">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
